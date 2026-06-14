@@ -1,0 +1,8 @@
+numpy>=1.24
+scipy>=1.10
+cvxpy>=1.4
+matplotlib>=3.7
+# optional, only for real-LLM backends:
+# anthropic>=0.40        # for AnthropicLLMPlanner
+# groq>=0.11             # for GroqLLMPlanner  (run_llm_groq.py)
+# python-dotenv>=1.0     # to load GROQ_API_KEY from a .env file
